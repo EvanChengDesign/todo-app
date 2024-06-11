@@ -29,3 +29,9 @@ In Phase 1, we’re going to perform some refactoring of a Todo application buil
 * Show a maximum of three items per screen by default in the <List /> component.
 * Use the Mantine <Pagination /> component to allow users to navigate a list of items.
 * Hide completed items in the list by default (the ability to show will be added in a later lab).
+
+### Describe how global state is consumed by the components.
+Global state is consumed by components using the `useContext` hook with the Context API or hooks like `useSelector` and `useDispatch` with state management libraries like Redux.
+
+### Describe the operation of the hook: useForm().
+The `useForm` hook manages form state and handles input changes and form submissions by initializing state, providing change handlers, and handling form validation and submission logic.
