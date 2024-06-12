@@ -1,0 +1,44 @@
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+    .add-todo {
+      flex: 1;
+      margin-right: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+  
+      .form-group {
+        margin-bottom: 10px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+  
+        input {
+          width: 100%;
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+    }
+  
+    .todos {
+      flex: 2;
+  
+      .todo-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+  
+        .mantine-Group-root {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
